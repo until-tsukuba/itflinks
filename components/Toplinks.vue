@@ -4,7 +4,7 @@
       <div class="tile is-parent py-0">
         <a class="py-6 tile is-child is-4 has-background-primary-dark" href="https://twins.tsukuba.ac.jp/campusweb/campusportal.do">
             <div class="has-text-white-ter is-size-3 has-text-centered">
-              <p class="">
+              <p>
                   Twins
               </p>
             </div>
