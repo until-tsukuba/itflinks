@@ -25,6 +25,29 @@
         </a>
       </div>
       <div class="tile is-parent py-0">
+        <a class="py-6 tile is-child is-4 has-background-primary" href="https://www.twinte.net/">
+            <div class="has-text-white-ter is-size-3 has-text-centered">
+              <p>
+                  Twin:te
+              </p>
+            </div>
+        </a>
+        <a class="py-6 tile is-child is-4 has-background-info" href="https://make-it-tsukuba.github.io/alternative-tsukuba-kdb/">
+            <div class="has-text-white-ter is-size-3 has-text-centered">
+              <p>
+                  KdBっぽいなにか
+              </p>
+            </div>
+        </a>
+        <a class="py-6 tile is-child is-4 has-background-link" href="https://cloudmail.u.tsukuba.ac.jp/">
+            <div class="has-text-white-ter is-size-3 has-text-centered">
+              <p>
+                  メール
+              </p>
+            </div>
+        </a>
+      </div>
+      <div class="tile is-parent py-0">
         <a class="py-6 tile is-child is-12 twitter" href="https://twitter.com">
             <div class="has-text-white-ter is-size-3 has-text-centered">
               <p>
