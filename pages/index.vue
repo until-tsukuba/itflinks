@@ -1,7 +1,6 @@
 <template>
   <div>
     <Toplinks />
-    <Tutorial />
   </div>
 </template>
 
