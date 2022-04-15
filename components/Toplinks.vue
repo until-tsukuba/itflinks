@@ -65,7 +65,6 @@
 </script>
 
 <style>
-  @import url(node_modules\bulma\css\bulma.min.css);
   .twitter {
     background-color: #00acee;
   }
