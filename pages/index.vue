@@ -1,6 +1,7 @@
 <template>
   <div>
     <Toplinks />
+    <foot />
   </div>
 </template>
 
