@@ -1,5 +1,8 @@
 <template>
-  <Tutorial />
+  <div>
+    <Toplinks />
+    <Tutorial />
+  </div>
 </template>
 
 <script lang="ts">
