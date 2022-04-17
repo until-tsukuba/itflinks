@@ -1,0 +1,67 @@
+<template>
+  <div id="faqs">
+    <Navbar />
+    <section class="hero is-info is-small">
+      <div class="hero-body">
+        <h1 class="title">困ったときは</h1>
+        <p class="subtitle">つまづきやすいポイントをFAQ形式で</p>
+      </div>
+    </section>
+    <section class="m-2">
+      <div class="content">
+        <h2 class="title">Officeへログインできない</h2>
+        <ol>
+          <li>個人のアカウントでログインしていませんか。配布されたメールアドレスを用いてログインします。</li>
+          <li>ログインしようとするメールアドレスを確認しましょう。<a href="https://www.u.tsukuba.ac.jp/email/">@sアドレスと@uアドレス</a>の混同が多いです。</li>
+          <li>パスワードを間違えていませんか。初期パスワードは学生証とともに配布されています。<br>また初期パスワードは5月31日で失効するため新しいパスワードも設定しましょう。</li>
+        </ol>
+      </div>
+      <div class="content">
+        <h2 class="title">Teamsへ入れない</h2>
+        <p>Microsoft Teamsには、<strong>個人用と職場・学校用が別に</strong>存在します。詳しくは<a href="https://support.microsoft.com/ja-jp/office/microsoft-teams-%E3%82%92%E5%85%A5%E6%89%8B%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-fc7f1634-abd3-4f26-a597-9df16e4ca65b">こちらのヘルプ</a>をお読みください。</p>
+        <ol>
+          <li>Officeへログインできない際と同様に、sアドレスとuアドレスを間違えていませんか。</li>
+          <li>「ワークスペース」へ招待されていますか。</li>
+        </ol>
+      </div>
+      <div class="content">
+        <h2 class="title">Twinsで履修登録したのにmanabaへ反映されない</h2>
+        <p>反映には時間がかかります。一晩寝てみましょう。</p>
+      </div>
+      <div class="content">
+        <h2 class="title">学内Wi-Fiのセットアップができない</h2>
+        <ol>
+          <li>アクセスポイントから離れすぎていませんか。</li>
+          <li>正しいSSIDを選択していますか。</li>
+          <li>UTID-13とそのパスワードは正しいですか。</li>
+          <li>以前接続できていた場合、統一認証のパスワードを変更していませんか。</li>
+        </ol>
+      </div>
+      <div class="content">
+        <h2 class="title">学内専用ページへアクセスできない</h2>
+        <ol>
+          <li>大学内からアクセスしていますか。</li>
+          <li>モバイル回線などではない、学内ネットワークからアクセスしていますか。</li>
+          <li>宿舎ネットワークは学内扱いされません。学内へ移動するか<a href="http://campus-vpn.cc.tsukuba.ac.jp/ja/">VPNを設定</a>しましょう。</li>
+        </ol>
+      </div>
+      <div class="content">
+        <h2 class="title">このサイトで追加してほしいものが見つかった</h2>
+        <p>Twitterで空リプをしていただければある程度対応します。しかし技術的なスキルの問題から完全に対応させていただくことは難しいかもしれません。</p>
+        <p>このサイトは<a href="https://nuxtjs.org/ja/">Nuxt.js</a>というフレームワークを用いて生成されています。もしあまりに対応が遅かったりした場合は、あなたが同様の趣旨を持ったサイトを立ち上げるのも一つの手かもしれません。</p>
+      </div>
+      <div class="content">
+        <h2 class="title">Twitterをやめられない</h2>
+        <p>知らんがな</p>
+      </div>
+    </section>
+  </div>
+</template>
+
+<script>
+
+</script>
+
+<style>
+
+</style>
