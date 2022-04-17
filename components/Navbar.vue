@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar has-background-primary">
+  <nav class="navbar has-text-white has-background-primary">
     <nuxt-link class="navbar-brand" to="/">
       link-ITF
     </nuxt-link>
