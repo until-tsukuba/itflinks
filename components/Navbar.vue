@@ -1,12 +1,12 @@
 <template>
-  <nav class="navbar has-text-white has-background-primary">
-    <nuxt-link class="navbar-brand" to="/">
+  <nav class="navbar has-background-primary">
+    <nuxt-link class="navbar-brand has-text-white" to="/">
       link-ITF
     </nuxt-link>
-    <nuxt-link class="navbar-item" to="/appli">
+    <nuxt-link class="navbar-item has-text-white" to="/appli">
       アプリ
     </nuxt-link>
-    <nuxt-link class="navbar-item" to="/faq">
+    <nuxt-link class="navbar-item has-text-white" to="/faq">
       FAQ
     </nuxt-link>
   </nav>
