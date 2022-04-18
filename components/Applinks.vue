@@ -1,7 +1,7 @@
 <template>
-  <div id="applinks" class="m-2 content">
+  <div id="applinks">
     <Navbar />
-    <div id="twinte">
+    <div id="twinte" class="m-2 content">
       <h2 class="title">Twin:te</h2>
       <ul>
         <li><a href="https://www.twinte.net/">公式サイト</a></li>
@@ -12,7 +12,7 @@
         筑波大学生向けの時間割ソフトです。Twinsからのインポート機能もあります。
       </p>
     </div>
-    <div id="eritan">
+    <div id="eritan" class="m-2 content">
       <h2 class="title">えりたんBOT</h2>
       <ul>
         <li><a href="https://eritanbot.net/">公式サイト</a></li>
@@ -23,7 +23,7 @@
         広大なキャンパスの地図。キャンパス交通システムやTXの時刻表も。
       </p>
     </div>
-    <div id="weego">
+    <div id="weego" class="m-2 content">
       <h2 class="title">ゆるぽSNS Weego</h2>
       <ul>
         <li><a href="https://weego.fun/">公式サイト</a></li>
@@ -34,7 +34,7 @@
         予定募集SNS。
       </p>
     </div>
-    <div class="ring">
+    <div id="ring" class="m-2 content">
       <h2 class="title">Ring</h2>
       <ul>
         <li><a href="https://apps.apple.com/app/ring-%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A8%E7%B9%8B%E3%81%8C%E3%82%8B/id1588422998">AppStore</a></li>
