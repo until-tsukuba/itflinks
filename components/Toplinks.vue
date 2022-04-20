@@ -62,7 +62,7 @@
               </p>
             </div>
         </a>
-        <a class="py-6 tile is-child is-4 has-text-black-ter" href="https://www.u.tsukuba.ac.jp/">
+        <a class="py-6 tile is-child is-4 has-background-black-ter" href="https://www.u.tsukuba.ac.jp/">
             <div class="has-text-white-ter is-size-3 has-text-centered">
               <p>
                   全学計算機
