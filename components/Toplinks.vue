@@ -48,6 +48,29 @@
         </a>
       </div>
       <div class="tile is-parent py-0">
+        <a class="py-6 tile is-child is-4 has-background-grey-darker" href="https://www.tulips.tsukuba.ac.jp/lib/">
+            <div class="has-text-white-ter is-size-3 has-text-centered">
+              <p>
+                  Tulips
+              </p>
+            </div>
+        </a>
+        <a class="py-6 tile is-child is-4 has-background-black-bis" href="https://www.sapec.tsukuba.ac.jp/">
+            <div class="has-text-white-ter is-size-3 has-text-centered">
+              <p>
+                  体育センター
+              </p>
+            </div>
+        </a>
+        <a class="py-6 tile is-child is-4 has-background-black-ter" href="https://www.u.tsukuba.ac.jp/">
+            <div class="has-text-white-ter is-size-3 has-text-centered">
+              <p>
+                  全学計算機
+              </p>
+            </div>
+        </a>
+      </div>
+      <div class="tile is-parent py-0">
         <a class="py-6 tile is-child is-12 twitter" href="https://twitter.com">
             <div class="has-text-white-ter is-size-3 has-text-centered">
               <p>
