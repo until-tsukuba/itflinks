@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <Conlinks />
+    <Comlinks />
     <foot />
   </div>
 </template>

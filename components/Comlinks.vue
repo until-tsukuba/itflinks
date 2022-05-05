@@ -1,5 +1,5 @@
 <template>
-  <div id="Comlinks">
+  <div id="comlinks">
     <div class="tile is-ancestor is-vertical">
       <div class="tile is-parent py-0">
         <a class="py-6 tile is-child is-4 zdk" href="https://www.stb.tsukuba.ac.jp/~zdk/home/">
