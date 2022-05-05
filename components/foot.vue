@@ -7,7 +7,7 @@
       This page's author accept no responsibility for any loss resulting from using this page.
     </p>
     <p>
-      This site has content in <nuxt-link to="/appli">/appli</nuxt-link>, <nuxt-link to="/faq">/faq</nuxt-link> and on the top page.
+      This site has content in <nuxt-link to="/appli">/appli</nuxt-link>, <nuxt-link to="/faq">/faq</nuxt-link>, <nuxt-link to="/com">/com</nuxt-link> and on the top page.
     </p>
     <p>
       link-ITF (<a href="https://itflinks.pages.dev">https://itflinks.pages.dev</a>) 2022
