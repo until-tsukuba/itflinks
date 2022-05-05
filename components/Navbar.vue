@@ -9,6 +9,9 @@
     <nuxt-link class="navbar-item has-text-white" to="/faq">
       FAQ
     </nuxt-link>
+    <nuxt-link class="navbar-item has-text-white" to="/com">
+      委員会等
+    </nuxt-link>
   </nav>
 </template>
 
