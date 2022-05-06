@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="hero">
+    <header class="hero is-primary">
       <div class="hero-body">
         <h1 class="title">「Tulips Search」を検索バーへ追加する</h1>
       </div>
