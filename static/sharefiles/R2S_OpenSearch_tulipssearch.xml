@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!--
+Ready2Search(https://ready.to/search/jp/)の検索設定:OpenSearch
+
+検索名称：tulipssearch
+検索ワードの前：https://www.tulips.tsukuba.ac.jp/search/?q=
+検索ワードの後：&lang=ja
+検索設定の説明：筑波大学附属図書館の「Tulips Search」
+XMLオプション: 
+入力エンコード：UTF-8
+出力エンコード：UTF-8
+画像テキスト：
+
+検索プラグイン指定URL：https://ready.to/search/jp/?sna=tulipssearch&prf=https%3A%2F%2Fwww.tulips.tsukuba.ac.jp%2Fsearch%2F%3Fq%3D&suf=%26amp%3Blang%3Dja&des=%E7%AD%91%E6%B3%A2%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%9B%B3%E6%9B%B8%E9%A4%A8%E3%81%AE%E3%80%8CTulips%20Search%E3%80%8D&in=utf&ou=utf&mod=pn
+
+-->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+     <ShortName>tulipssearch</ShortName>
+     <Description>筑波大学附属図書館の「Tulips Search」</Description>
+     <Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAOMAAAAAABgYtRgYrRgYlBBSMcaEMQhKKTFaKcZ7Mb17MRBKKYxzKQAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAQABAAAARGEMhAq7y36iBwphjXhaAnnKR3DUOqAqyrxt8Lt18w05fAYawBQeULBguGA9E4MCASB4XtYnAuDsopoJqASrVVBMKglVSrEQA7</Image>
+     <InputEncoding>UTF-8</InputEncoding>
+     <OutputEncoding>UTF-8</OutputEncoding>
+     <Url type="text/html" template="https://www.tulips.tsukuba.ac.jp/search/?q={searchTerms}&amp;lang=ja"/>
+</OpenSearchDescription>
