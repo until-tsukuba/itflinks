@@ -56,5 +56,8 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true
+  },
+  render: {
+    injectScripts: false
   }
 }
