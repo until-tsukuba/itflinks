@@ -57,6 +57,7 @@ export default {
   build: {
     extractCSS: true
   },
+  
   render: {
     injectScripts: false
   }
