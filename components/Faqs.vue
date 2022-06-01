@@ -1,6 +1,5 @@
 <template>
   <div id="faqs">
-    <Navbar />
     <section class="hero is-info is-small">
       <div class="hero-body">
         <h1 class="title">困ったときは</h1>
