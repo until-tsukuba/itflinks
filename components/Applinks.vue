@@ -43,6 +43,16 @@
         筑波大学のサークル活動について知ることができるアプリ。パソコンを使用している人には<a href="https://www.stb.tsukuba.ac.jp/~shinkan-web/">新歓Web</a>も役立つ。
       </p>
     </div>
+    <div id="awesome">
+      <h2 class="title">Awesome Tsukuba</h2>
+      <ul>
+        <li><a href="https://make-it-tsukuba.github.io/awesome-tsukuba/">サイト</a></li>
+        <li><a href="https://github.com/Make-IT-TSUKUBA/awesome-tsukuba">GitHubリポジトリ</a></li>
+      </ul>
+      <p>
+        「筑波大学に関連する便利なツール・サイト・スマホアプリ」を紹介するサイト。PRも歓迎しているとのことなので、新たなサービスが生まれた場合はやりましょう。
+      </p>
+    </div>
   </div>
 </template>
 
