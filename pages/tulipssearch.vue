@@ -1,6 +1,6 @@
 <template>
   <div>
-    <link rel="search" type="application/opensearchdescription+xml" title="Add Tulips Search" href="/sharefiles/R2S_OpenSearch_tulipssearch.xml" />
+    <link rel="search" type="application/opensearchdescription+xml" title="Add Tulips Search" href="/sharefiles/R2S_OpenSearch_tulipssearch.xml">
     <Navbar />
     <Tulipssearchxml />
     <foot />
