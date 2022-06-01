@@ -48,17 +48,22 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: false,
+    meta: {
+      charset: 'utf-8',
+      author: 'someone',
+      theme_color: '#00d1b2',
+      mobileApp: true,
+      mobileAppIOS: true
+    },
     manifest: {
-      lang: 'ja'
+      lang: 'ja',
+      useWebmanifestExtension: false
     }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true
-  },
-  
-  render: {
-    injectScripts: false
   }
 }

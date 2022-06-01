@@ -1,6 +1,5 @@
 <template>
   <div id="applinks">
-    <Navbar />
     <div id="twinte" class="m-2 content">
       <h2 class="title">Twin:te</h2>
       <ul>
