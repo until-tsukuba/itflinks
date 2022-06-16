@@ -13,7 +13,9 @@
         /faq
       </nuxt-link>, <nuxt-link to="/com">
         /com
-      </nuxt-link>, <nuxt-link to="/tulipssearch">
+      </nuxt-link>, <nuxt-link to="/life">
+        /life
+      </nuxt-link> , <nuxt-link to="/tulipssearch">
         /tulipssearch
       </nuxt-link> and on the top page.
     </p>
