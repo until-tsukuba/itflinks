@@ -16,7 +16,7 @@
             </p>
           </div>
         </a>
-        <a class="py-6 tile is-child is-4 deck" href="https://futureship.sec.tsukuba.ac.jp/shihoukai/">
+        <a class="py-6 tile is-child is-4 deck" href="https://tweetdeck.twitter.com/">
           <div class="has-text-white-ter is-size-3 has-text-centered">
             <p>
               TweetDeck
