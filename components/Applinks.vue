@@ -51,6 +51,30 @@
         筑波大学のサークル活動について知ることができるアプリ。パソコンを使用している人には<a href="https://www.stb.tsukuba.ac.jp/~shinkan-web/">新歓Web</a>も役立つ。
       </p>
     </div>
+    <div id="autoauth" class="m-2 content">
+      <h2 class="title">
+        筑波大学統一認証システム 自動ログイン拡張
+      </h2>
+      <ul>
+        <li><a href="https://chrome.google.com/webstore/detail/bhppbaecnbeidnnaocecmlegjabdocnc">Chromeウェブストア</a></li>
+        <li><a href="https://github.com/kichi2004/ut-auto-auth">GitHubリポジトリ</a></li>
+      </ul>
+      <p>
+        UTIDを用いたログインを自動化するブラウザ拡張。
+      </p>
+    </div>
+    <div id="gradegraph" class="m-2 content">
+      <h2 class="title">
+        Grade Graph
+      </h2>
+      <ul>
+        <li><a href="https://mimori256.github.io/Grade-Graph/">Grade Graph</a></li>
+        <li><a href="https://github.com/Mimori256/Grade-Graph">GitHubリポジトリ</a></li>
+      </ul>
+      <p>
+        Twinsの成績データを可視化するサイト。
+      </p>
+    </div>
     <div id="awesome" class="m-2 content">
       <h2 class="title">
         Awesome Tsukuba
