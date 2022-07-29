@@ -62,10 +62,10 @@
             </p>
           </div>
         </a>
-        <a class="py-6 tile is-child is-4 jglobal" href="https://jglobal.jst.go.jp/">
+        <a class="py-6 tile is-child is-4 wolfram" href="https://ja.wolframalpha.com/">
           <div class="has-text-white-ter is-size-3 has-text-centered">
             <p>
-              J-GLOBAL
+              Wolfram Alpha
             </p>
           </div>
         </a>
@@ -103,7 +103,7 @@
   .jstage {
     background-color: #f01452;
   }
-  .jglobal {
-    background-color: #2064b1;
+  .wolfram {
+    background-color: #f96932;
   }
 </style>
