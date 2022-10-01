@@ -1,6 +1,6 @@
 <template>
-  <div id="applinks">
-    <div id="twinte" class="m-2 content">
+  <div id="applinks" class="m-2 content">
+    <div id="twinte">
       <h2 class="title">
         Twin:te
       </h2>
@@ -10,10 +10,10 @@
         <li><a href="https://play.google.com/store/apps/details?id=net.twinte.android">Google Play</a></li>
       </ul>
       <p>
-        筑波大学生向けの時間割ソフトです。Twinsからのインポート機能もあります。
+        筑波大学生向けの時間割ソフト。Twinsからのインポート機能も。
       </p>
     </div>
-    <div id="eritan" class="m-2 content">
+    <div id="eritan">
       <h2 class="title">
         えりたんBOT
       </h2>
@@ -26,7 +26,20 @@
         広大なキャンパスの地図。キャンパス交通システムやTXの時刻表も。
       </p>
     </div>
-    <div id="weego" class="m-2 content">
+    <div id="eritan">
+      <h2 class="title">
+        A+つくば
+      </h2>
+      <ul>
+        <li><a href="https://www.aplus-tsukuba.net/search/">公式サイト</a></li>
+        <li><a href="https://twitter.com/aplus_tsukuba">Twitter</a></li>
+        <li><a href="https://github.com/half-blue/A_plus_Tsukuba">GitHubリポジトリ</a></li>
+      </ul>
+      <p>
+        筑波大学生限定の匿名学習支援SNS。講義や学群単位での匿名掲示板が特徴。
+      </p>
+    </div>
+    <div id="weego">
       <h2 class="title">
         ゆるぽSNS Weego
       </h2>
@@ -36,10 +49,10 @@
         <li><a href="https://play.google.com/store/apps/details?id=com.flutterflow.weego">Google Play</a></li>
       </ul>
       <p>
-        予定募集SNS。
+        予定募集SNS。サービス終了済み。
       </p>
     </div>
-    <div id="ring" class="m-2 content">
+    <div id="ring">
       <h2 class="title">
         Ring
       </h2>
@@ -51,7 +64,7 @@
         筑波大学のサークル活動について知ることができるアプリ。パソコンを使用している人には<a href="https://www.stb.tsukuba.ac.jp/~shinkan-web/">新歓Web</a>も役立つ。
       </p>
     </div>
-    <div id="autoauth" class="m-2 content">
+    <div id="autoauth">
       <h2 class="title">
         筑波大学統一認証システム 自動ログイン拡張
       </h2>
@@ -60,10 +73,10 @@
         <li><a href="https://github.com/kichi2004/ut-auto-auth">GitHubリポジトリ</a></li>
       </ul>
       <p>
-        UTIDを用いたログインを自動化するブラウザ拡張。
+        UTIDを用いたログインを自動化するブラウザ拡張。大学側の要請により配布停止。
       </p>
     </div>
-    <div id="gradegraph" class="m-2 content">
+    <div id="gradegraph">
       <h2 class="title">
         Grade Graph
       </h2>
@@ -75,7 +88,7 @@
         Twinsの成績データを可視化するサイト。
       </p>
     </div>
-    <div id="awesome" class="m-2 content">
+    <div id="awesome">
       <h2 class="title">
         Awesome Tsukuba
       </h2>
