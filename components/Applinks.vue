@@ -39,6 +39,18 @@
         筑波大学生限定の匿名学習支援SNS。講義や学群単位での匿名掲示板が特徴。
       </p>
     </div>
+    <div id="itfvending">
+      <h2 class="title">
+        筑波大学 自販機 Map
+      </h2>
+      <ul>
+        <li><a href="https://itf-vendingmachine.vercel.app/">公式サイト</a></li>
+        <li><a href="https://github.com/eniehack/itf-vendingmachine">GitHubリポジトリ</a></li>
+      </ul>
+      <p>
+        筑波大学の自動販売機の場所や決済手段、売られているものの情報をまとめられているサイトです。
+      </p>
+    </div>
     <div id="weego">
       <h2 class="title">
         ゆるぽSNS Weego
