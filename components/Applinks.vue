@@ -1,6 +1,6 @@
 <template>
-  <div id="applinks" class="m-2 content">
-    <div id="twinte">
+  <div id="applinks" class="m-2 content columns is-multiline is-centered">
+    <div id="twinte" class="card m-2 column is-5">
       <h2 class="title">
         Twin:te
       </h2>
@@ -13,7 +13,7 @@
         筑波大学生向けの時間割ソフト。Twinsからのインポート機能も。
       </p>
     </div>
-    <div id="eritan">
+    <div id="eritan" class="card m-2 column is-5">
       <h2 class="title">
         えりたんBOT
       </h2>
@@ -26,7 +26,7 @@
         広大なキャンパスの地図。キャンパス交通システムやTXの時刻表も。
       </p>
     </div>
-    <div id="eritan">
+    <div id="eritan" class="card m-2 column is-5">
       <h2 class="title">
         A+つくば
       </h2>
@@ -39,7 +39,7 @@
         筑波大学生限定の匿名学習支援SNS。講義や学群単位での匿名掲示板が特徴。
       </p>
     </div>
-    <div id="itfvending">
+    <div id="itfvending" class="card m-2 column is-5">
       <h2 class="title">
         筑波大学 自販機 Map
       </h2>
@@ -51,7 +51,7 @@
         筑波大学の自動販売機の場所や決済手段、売られているものの情報をまとめられているサイトです。
       </p>
     </div>
-    <div id="weego">
+    <div id="weego" class="card m-2 column is-5">
       <h2 class="title">
         ゆるぽSNS Weego
       </h2>
@@ -64,7 +64,7 @@
         予定募集SNS。サービス終了済み。
       </p>
     </div>
-    <div id="ring">
+    <div id="ring" class="card m-2 column is-5">
       <h2 class="title">
         Ring
       </h2>
@@ -76,7 +76,7 @@
         筑波大学のサークル活動について知ることができるアプリ。パソコンを使用している人には<a href="https://www.stb.tsukuba.ac.jp/~shinkan-web/">新歓Web</a>も役立つ。
       </p>
     </div>
-    <div id="autoauth">
+    <div id="autoauth" class="card m-2 column is-5">
       <h2 class="title">
         筑波大学統一認証システム 自動ログイン拡張
       </h2>
@@ -88,7 +88,7 @@
         UTIDを用いたログインを自動化するブラウザ拡張。大学側の要請により配布停止。
       </p>
     </div>
-    <div id="gradegraph">
+    <div id="gradegraph" class="card m-2 column is-5">
       <h2 class="title">
         Grade Graph
       </h2>
@@ -100,7 +100,7 @@
         Twinsの成績データを可視化するサイト。
       </p>
     </div>
-    <div id="awesome">
+    <div id="awesome" class="card m-2 column is-5">
       <h2 class="title">
         Awesome Tsukuba
       </h2>
