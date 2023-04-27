@@ -39,10 +39,10 @@
             </p>
           </div>
         </a>
-        <a class="py-6 tile is-child is-4 has-background-link" href="https://cloudmail.u.tsukuba.ac.jp/">
+        <a class="py-6 tile is-child is-4 has-background-link" href="https://atmnb.tsukuba.ac.jp/">
           <div class="has-text-white-ter is-size-3 has-text-centered">
             <p>
-              メール
+              respon
             </p>
           </div>
         </a>
