@@ -14,14 +14,14 @@ dependencies:
   astro-purgecss:
     specifier: ^3.2.1
     version: 3.2.1(astro@3.2.3)(purgecss@5.0.0)
+  bulma:
+    specifier: ^0.9.4
+    version: 0.9.4
   purgecss:
     specifier: ^5.0.0
     version: 5.0.0
 
 devDependencies:
-  bulma:
-    specifier: ^0.9.4
-    version: 0.9.4
   sass:
     specifier: ^1.69.1
     version: 1.69.1
@@ -1277,7 +1277,7 @@ packages:
 
   /bulma@0.9.4:
     resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
-    dev: true
+    dev: false
 
   /camelcase@7.0.1:
     resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
