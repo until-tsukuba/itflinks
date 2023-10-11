@@ -9,11 +9,11 @@ dependencies:
     specifier: ^3.0.1
     version: 3.0.1
   astro:
-    specifier: ^3.2.3
-    version: 3.2.3(sass@1.69.1)
+    specifier: ^3.2.4
+    version: 3.2.4(sass@1.69.2)
   astro-purgecss:
     specifier: ^3.2.1
-    version: 3.2.1(astro@3.2.3)(purgecss@5.0.0)
+    version: 3.2.1(astro@3.2.4)(purgecss@5.0.0)
   bulma:
     specifier: ^0.9.4
     version: 0.9.4
@@ -23,11 +23,11 @@ dependencies:
 
 devDependencies:
   sass:
-    specifier: ^1.69.1
-    version: 1.69.1
+    specifier: ^1.69.2
+    version: 1.69.2
   sass-loader:
     specifier: ^13.3.2
-    version: 13.3.2(sass@1.69.1)(webpack@5.88.2)
+    version: 13.3.2(sass@1.69.2)(webpack@5.88.2)
 
 packages:
 
@@ -47,13 +47,13 @@ packages:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
     dev: false
 
-  /@astrojs/markdown-remark@3.2.1(astro@3.2.3):
+  /@astrojs/markdown-remark@3.2.1(astro@3.2.4):
     resolution: {integrity: sha512-Z4YNMRtgFZeHhB29uCZl0B9MbMZddW9ZKCNucapoysbvygbDFF1gGtqpVnf+Lyv3rUBHwM/J5qWB2MSZuTuz1g==}
     peerDependencies:
       astro: ^3.2.3
     dependencies:
       '@astrojs/prism': 3.0.0
-      astro: 3.2.3(sass@1.69.1)
+      astro: 3.2.4(sass@1.69.2)
       github-slugger: 2.0.0
       import-meta-resolve: 3.0.0
       mdast-util-definitions: 6.0.0
@@ -63,7 +63,7 @@ packages:
       remark-parse: 10.0.2
       remark-rehype: 10.1.0
       remark-smartypants: 2.0.0
-      shiki: 0.14.4
+      shiki: 0.14.5
       unified: 10.1.2
       unist-util-visit: 4.1.2
       vfile: 5.3.7
@@ -814,12 +814,12 @@ packages:
   /@types/eslint-scope@3.7.5:
     resolution: {integrity: sha512-JNvhIEyxVW6EoMIFIvj93ZOywYFatlpu9deeH6eSx6PE3WHYvHaQtmHmQeNw7aA81bYGBPPQqdtBm6b1SsQMmA==}
     dependencies:
-      '@types/eslint': 8.44.3
+      '@types/eslint': 8.44.4
       '@types/estree': 1.0.2
     dev: true
 
-  /@types/eslint@8.44.3:
-    resolution: {integrity: sha512-iM/WfkwAhwmPff3wZuPLYiHX18HI24jU8k1ZSH7P8FHwxTjZ2P6CoX2wnF43oprR+YXJM6UUxATkNvyv/JHd+g==}
+  /@types/eslint@8.44.4:
+    resolution: {integrity: sha512-lOzjyfY/D9QR4hY9oblZ76B90MYTB3RrQ4z2vBIJKj9ROCRqdkYl2gSUx1x1a4IWPjKJZLL4Aw1Zfay7eMnmnA==}
     dependencies:
       '@types/estree': 1.0.2
       '@types/json-schema': 7.0.13
@@ -872,6 +872,7 @@ packages:
     resolution: {integrity: sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==}
     dependencies:
       undici-types: 5.25.3
+    dev: true
 
   /@types/parse5@6.0.3:
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -884,7 +885,7 @@ packages:
   /@types/sax@1.2.5:
     resolution: {integrity: sha512-9jWta97bBVC027/MShr3gLab8gPhKy4l6qpb+UJLF5pDm3501NvA7uvqVCW+REFtx00oTi6Cq9JzLwgq6evVgw==}
     dependencies:
-      '@types/node': 20.8.4
+      '@types/node': 17.0.45
     dev: false
 
   /@types/unist@2.0.8:
@@ -1096,24 +1097,24 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-purgecss@3.2.1(astro@3.2.3)(purgecss@5.0.0):
+  /astro-purgecss@3.2.1(astro@3.2.4)(purgecss@5.0.0):
     resolution: {integrity: sha512-dMQJxTkh1MaGRmf2GInQAYIjHKm8qRBbnSCrGoaqeHqG3vTXE+CGPUu0xiDO6kQkQfn+YMoID8sDy3wYgwP87g==}
     peerDependencies:
       astro: ^3.0.0
       purgecss: ^5.0.0
     dependencies:
-      astro: 3.2.3(sass@1.69.1)
+      astro: 3.2.4(sass@1.69.2)
       purgecss: 5.0.0
     dev: false
 
-  /astro@3.2.3(sass@1.69.1):
-    resolution: {integrity: sha512-1epnxQhTbfzgdmLP1yu51E8zjIOKYxZyA8hMTD4S2E+F5gMp/D81H4hekPbbq89GDxNJiHDRNZDHtS5vrU5E5w==}
+  /astro@3.2.4(sass@1.69.2):
+    resolution: {integrity: sha512-e95Yz6tYG6Q2SEOCzujqCHq9/HOB2z085KP1K36kGuGtu0qaa3mmnz3R9FpKM/W5SbmrNgUv4QaP207EUkMp5Q==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.2.0
       '@astrojs/internal-helpers': 0.2.1
-      '@astrojs/markdown-remark': 3.2.1(astro@3.2.3)
+      '@astrojs/markdown-remark': 3.2.1(astro@3.2.4)
       '@astrojs/telemetry': 3.0.3
       '@babel/core': 7.23.0
       '@babel/generator': 7.23.0
@@ -1152,16 +1153,16 @@ packages:
       probe-image-size: 7.2.3
       prompts: 2.4.2
       rehype: 12.0.1
-      resolve: 1.22.6
+      resolve: 1.22.8
       semver: 7.5.4
       server-destroy: 1.0.1
-      shiki: 0.14.4
+      shiki: 0.14.5
       string-width: 6.1.0
       strip-ansi: 7.1.0
       tsconfig-resolver: 3.0.1
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.4.11(sass@1.69.1)
+      vite: 4.4.11(sass@1.69.2)
       vitefu: 0.2.4(vite@4.4.11)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
@@ -1251,7 +1252,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001547
-      electron-to-chromium: 1.4.548
+      electron-to-chromium: 1.4.549
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.22.1)
 
@@ -1544,8 +1545,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /electron-to-chromium@1.4.548:
-    resolution: {integrity: sha512-R77KD6mXv37DOyKLN/eW1rGS61N6yHOfapNSX9w+y9DdPG83l9Gkuv7qkCFZ4Ta4JPhrjgQfYbv4Y3TnM1Hi2Q==}
+  /electron-to-chromium@1.4.549:
+    resolution: {integrity: sha512-gpXfJslSi4hYDkA0mTLEpYKRv9siAgSUgZ+UWyk+J5Cttpd1ThCVwdclzIwQSclz3hYn049+M2fgrP1WpvF8xg==}
 
   /emoji-regex@10.2.1:
     resolution: {integrity: sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA==}
@@ -2740,8 +2741,8 @@ packages:
       '@types/nlcst': 1.0.2
     dev: false
 
-  /node-abi@3.48.0:
-    resolution: {integrity: sha512-uWR/uwQyVV2iN5+Wkf1/oQxOR9YjU7gBclJLg2qK7GDvVohcnY6LaBXKV89N79EQFyN4/e43O32yQYE5QdFYTA==}
+  /node-abi@3.49.0:
+    resolution: {integrity: sha512-ji8IK8VT2zAQv9BeOqwnpuvJnCivxPCe2HNiPe8P1z1SDhqEFpm7GqctqTWkujb8mLfZ1PWDrjMeiq6l9TN7fA==}
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
@@ -2928,7 +2929,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.48.0
+      node-abi: 3.49.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -3114,8 +3115,8 @@ packages:
       unist-util-visit: 4.1.2
     dev: false
 
-  /resolve@1.22.6:
-    resolution: {integrity: sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==}
+  /resolve@1.22.8:
+    resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
     hasBin: true
     dependencies:
       is-core-module: 2.13.0
@@ -3199,7 +3200,7 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
 
-  /sass-loader@13.3.2(sass@1.69.1)(webpack@5.88.2):
+  /sass-loader@13.3.2(sass@1.69.2)(webpack@5.88.2):
     resolution: {integrity: sha512-CQbKl57kdEv+KDLquhC+gE3pXt74LEAzm+tzywcA0/aHZuub8wTErbjAoNI57rPUWRYRNC5WUnNl8eGJNbDdwg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -3219,12 +3220,12 @@ packages:
         optional: true
     dependencies:
       neo-async: 2.6.2
-      sass: 1.69.1
+      sass: 1.69.2
       webpack: 5.88.2
     dev: true
 
-  /sass@1.69.1:
-    resolution: {integrity: sha512-nc969GvTVz38oqKgYYVHM/Iq7Yl33IILy5uqaH2CWSiSUmRCvw+UR7tA3845Sp4BD5ykCUimvrT3k1EjTwpVUA==}
+  /sass@1.69.2:
+    resolution: {integrity: sha512-48lDtG/9OuSQZ9oNmJMUXI2QdCakAWrAGjpX/Fy6j4Og8dEAyE598x5GqCqnHkwV7+I5w8DJpqjm581q5HNh3w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3304,8 +3305,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /shiki@0.14.4:
-    resolution: {integrity: sha512-IXCRip2IQzKwxArNNq1S+On4KPML3Yyn8Zzs/xRgcgOWIr8ntIK3IKzjFPfjy/7kt9ZMjc+FItfqHRBg8b6tNQ==}
+  /shiki@0.14.5:
+    resolution: {integrity: sha512-1gCAYOcmCFONmErGTrS1fjzJLA7MGZmKzrBNX7apqSwhyITJg2O102uFzXUeBxNnEkDA9vHIKLyeKq0V083vIw==}
     dependencies:
       ansi-sequence-parser: 1.1.1
       jsonc-parser: 3.2.0
@@ -3618,7 +3619,7 @@ packages:
       '@types/json5': 0.0.30
       '@types/resolve': 1.20.3
       json5: 2.2.3
-      resolve: 1.22.6
+      resolve: 1.22.8
       strip-bom: 4.0.0
       type-fest: 0.13.1
     dev: false
@@ -3643,6 +3644,7 @@ packages:
 
   /undici-types@5.25.3:
     resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+    dev: true
 
   /unherit@3.0.1:
     resolution: {integrity: sha512-akOOQ/Yln8a2sgcLj4U0Jmx0R5jpIg2IUyRrWOzmEbjBtGzBdHtSeFKgoEcoH4KYIG/Pb8GQ/BwtYm0GCq1Sqg==}
@@ -3785,7 +3787,7 @@ packages:
       vfile-message: 3.1.4
     dev: false
 
-  /vite@4.4.11(sass@1.69.1):
+  /vite@4.4.11(sass@1.69.2):
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3816,7 +3818,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.4.31
       rollup: 3.29.4
-      sass: 1.69.1
+      sass: 1.69.2
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
@@ -3829,7 +3831,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.11(sass@1.69.1)
+      vite: 4.4.11(sass@1.69.2)
     dev: false
 
   /vscode-oniguruma@1.7.0:
