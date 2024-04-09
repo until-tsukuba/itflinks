@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.1.2",
-    "astro": "^4.5.12",
+    "astro": "^4.5.17",
     "astro-purgecss": "^4.1.0",
     "bulma": "^1.0.0",
     "purgecss": "^5.0.0"
   },
   "devDependencies": {
-    "sass": "^1.72.0",
+    "sass": "^1.74.1",
     "sass-loader": "^14.1.1"
   }
 }
