@@ -2,12 +2,32 @@
 interface Props {
 	title: string;
 	description: string;
+	og?: {
+		type?: string;
+		image?: string;
+	};
+	twitter?: {
+		card?: string;
+	};
 }
 
 import 'bulma/css/bulma.css';
 import Navbar from '../components/Navbar.astro';
 import Foot from '../components/Foot.astro';
-const { title, description } = Astro.props;
+const { title, description, og, twitter } = Astro.props;
+
+const metadata = {
+  title: title ? `${title} - itflinks` : "itflinks",
+  description: description ?? "開かれた未来に関する関連リンク集",
+  og: {
+    type: og?.type ?? "website",
+    site_name: "itflinks",
+  },
+  twitter: {
+    card: twitter?.card ?? "summary",
+  },
+};
+
 ---
 
 <!doctype html>
@@ -18,7 +38,11 @@ const { title, description } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title} - itflinks</title>
+		<title>{metadata.title}</title>
+		<meta name="description" content={metadata.description} />
+		<meta property="og:type" content={metadata.og.type} />
+		<meta property="og:site_name" content={metadata.og.site_name} />
+		<meta name="twitter:card" content={metadata.twitter.card} />
 	</head>
 	<body>
 		<Navbar />
